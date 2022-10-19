@@ -1,0 +1,133 @@
+/** @import url('google font link') **/
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', 'Helvetica', and sans-serif;
+    scroll-behavior: smooth;
+    
+}
+/* Navbar and Logo*/
+.navbar {
+    position: fixed;
+    font-size: 16px;
+    top:20px;
+    left:55px;
+    right:55px;
+    transition: all .3s ease-in-out;
+    height: 70px;
+    z-index: 999;
+    font-weight: bold;
+}
+.navbar .nav_container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+    height:70px;
+    transition: all .3s ease-in-out;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.navbar a {
+    color:black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all .3s ease-in-out;
+}
+.navbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px; 
+    border: 2px solid #fba5a8;
+}
+/* Hero Section */
+.hero_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin:0 auto;
+    height: 90vh;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+.hero_container h1 {
+    font-size: 55px;
+    position: fixed;
+    top: 190px;
+    left:60px;
+
+}
+.hero_container p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: gray;
+    position: fixed;
+    margin-top: 10rem;
+    left: 60px;
+
+}
+.start_b{
+    background-color: #F24726;
+    border: 2px solid #fba5a8;
+    border-radius: 6px; 
+    padding: 15px 32px;
+    position: fixed;
+    margin-top: 20rem;
+    left:60px;
+
+}
+.startbtn {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+.demo_b{
+    background-color: #E6E6E6;
+    border: 2px solid #808080;
+    border-radius: 6px; 
+    padding: 15px 32px;
+    position: fixed;
+    margin-top: 20rem;
+    left:260px;
+}
+.demobtn {
+    color: #808080;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none; 
+}
+.main_img {
+    position:fixed;
+    right:40px;
+    top:130px;
+}
+#home_img {
+    height: 120%;
+    width: 100%;
+}
+/**
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+nav a {
+    display: block; 
+    padding: 0px 25px;
+    text-align: center;
+    position: static;
+    color: green;
+    text-decoration: none;
+}
