@@ -1,0 +1,48 @@
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: #EC4427;
+}
+
+label{
+  font-size: large;
+  color: #EC4427;
+  margin-left: 32%;
+  display: grid;
+  float: inline-start;
+  
+}
+
+input[type=text], input[type=password] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 36%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  align-self: flex-start;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin-left: 32%;
+}
+
+button {
+  background-color: #EC4427;
+  color: white;
+  padding: 15px 20px;
+  margin-left: 32%;
+  border: none;
+  cursor: pointer;
+  width: 36%;
+  
+}
+span.psw{
+  margin-left: 32%;
+  
+}
+
+input[type=checkbox]{
+  margin-left: 24%;
+}
+
