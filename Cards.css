@@ -36,14 +36,13 @@
     transform: rotateY(0deg);
 }
  button{
-    margin: 10%;
     background-color: purple;
     color: white;
     border: 1px purple solid;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: 20px 30px;
+    padding: 10px 15px;
     overflow: hidden;
     position: relative;
 }
