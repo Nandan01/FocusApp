@@ -68,15 +68,15 @@ function addToDo(todo) {
 }
 
 function updateLS() {
-    container = document.querySelector('#toDoList')
-    todoListEl = container.querySelectorAll('li')
+    container = document.querySelector('#allTaskModal')
+    viewAllTaskEl = container.querySelectorAll('li')
 
     const todos = []
 
-    todoListEl.forEach(todoListEl => {
+    viewAllTaskEl.forEach(viewAllTaskEl => {
         todos.push({
-            text: todoListEl.innerText,
-            completed: todoListEl.classList.contains('completed')
+            text: viewAllTaskEl.innerText,
+            completed: viewAllTaskEl.classList.contains('completed')
         })
     })
 
