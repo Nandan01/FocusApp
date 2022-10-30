@@ -42,15 +42,15 @@
 
 <!-- How Our Application Works Section -->
 <div class="how_container">
-    <div class="how_moto_content">
+    <div data-aos="fade-right" data-aos-duration="1000"class="how_moto_content">
         <h2>Manage complex tasks easily</h2>
         <p>Thriving for efficency</p>
         <a href="/index.html"><img src="/Images/home_list_img.png" alt="logo" class="logo" width="10" height="70"></a>
     </div>
-    <div data-aos="zoom-in" class="how_list">
+    <div data-aos="fade-left" data-aos-duration="1000" class="how_list">
         <ol>
             <li>
-                <span>01 <br />Create a list </span>
+                <span>01 <br />Create a todo list </span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut eni </p>
             </li> 
             <li>
@@ -63,6 +63,10 @@
         </ol>
     </div>
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            AOS.init();
+    </script>
 
 <!-- Counter Section -->
 <div class="moto">
