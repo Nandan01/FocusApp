@@ -6,56 +6,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" > 
+
 </head>
 <body>
-    <!-- Navbar Section-->
-    <nav class="navbar">
-        <div class="nav_container">
-            <h1 class="logo"><a href="/index.html"><img src="/Images/focus2.0.png" alt="logo" width="150" height="70"></a></h1>
-            <ul>
-                <li><a href="#home" class="navlink" id="home">HOME</a></li>
-                <li><a href="#about" class="navlink" id="about">ABOUT US</a></li>
-                <li><a href="#faq" class="navlink" id="faq">FAQ</a></li>
-                <li><a href="#login" class="navlink" id="login">LOG IN</a></li>
-                <li><a href="#getstarted" class="navbutton" id="getstart" style="color:#F24726">GET STARTED</a></li>
-            </ul>
-        </div>
-    </nav>
-  
-    <!-- Home Page Content -->
-    <div class="hero">
-        <div class="hero_container">
+
+<!-- Navbar Section-->
+<nav class="nav_bar" id="navbar">
+    <div class="nav_container">
+        <a href="/index.html"><img src="/Images/focus3.png" alt="logo" class="logo" width="10" height="70"></a>
+        <ul class="nav_list">
+            <li><a href="#home" class="navlink" id="home">HOME</a></li>
+            <li><a href="#about" class="navlink" id="about">ABOUT US</a></li>
+            <li><a href="#faq" class="navlink" id="faq">FAQ</a></li>
+            <li><a href="#login" class="navlink" id="login">LOG IN</a></li>
+            <li><a href="#getstarted" class="navbutton" id="getstart" style="color:#F24726">GET STARTED</a></li>
+    </div>
+</nav>
+
+<!-- Home Page Content -->
+<div class="main">
+    <div class="hero_container">
+        <div class="hero_content">
             <h1>Manange Your <br /> Tasks Efficently.</h1>
-            <p>Plan, organize, and never miss a deadline <br /> with our powerful task management tool.</p>
-            <button class="start_b"><a href="#" class="startbtn">Get Started</a></button>
-            <button class="demo_b"><a href="#" class="demobtn">View Demo</a></button>
-            <p class="">For free. For you forever.<br />No credit card needed.</p>
+            <h2>Plan, organize, and never miss a deadline <br /> with our powerful task management tool.</h2>
+            <button class="startbtn"><a href="#">GET STARTED</a></button>
+            <button class="demobtn"><a href="https://youtu.be/kq851Lcm-M8" target="_blank">VIEW DEMO</a></button>
+            <p class="start_free">&nbsp;For free. For you forever.<br />&nbsp;No credit card needed.</p>
         </div>
-        <div class="main_img">
+        <div class="main_img_container">
             <img src="/Images/homepage.png" alt="homeimage" id="home_img">
         </div>
-
     </div>
-    <!-- Home Counter -->
-    <!--
+</div>
+
+<!-- Counter Section -->
+<div class="moto">
+    <p><strong>Helping </strong>people like you <strong>get the job done</strong></p>
+</div>
+<div class="counter_section">
+
     <div class="counter_container">
-        <i class =""
-
+        <i class="fa fa-check-square-o fa-5x" aria-hidden="true"></i>
+        <div class="counter" data-target="302678"></div>
+        <span>Tasks Completed</span>
     </div>
---> 
+    <div class="counter_container">
+        <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
+        <div class="counter" data-target="250"></div>
+        <span>Partnered Companies</span>
+    </div>
+    <div class="counter_container">
+        <i class="fa fa-heart-o fa-5x" aria-hidden="true"></i>
+        <div class="counter" data-target="4329"></div>
+        <span>Satisfied Customers</span>
+    </div>
+    <script src="counter.js"></script>
+</div>
+
+<!-- -->
+
+
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="social_media">
+      <div class="footer_logo">`
+        <a href="/index.html"><img src="/Images/focus3.png" alt="logo" class="logo" width="10" height="50"></a>
+      </div>
+      <p class="website_rights">© FOCUS 2022. All rights reserved</p>
+      <div class="social_icons">
+        <a class="icon_link" href="/" target="_blank" aria-label="Facebook">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a class="icon_link" href="/" target="_blank" aria-label="Instagram">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a class="icon_link" href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber" target="_blank" aria-label="Youtube">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        </a>
+        <a class="icon_link" href="/" target="_blank" aria-label="Twitter">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a class="icon_link" href="/" target="_blank" aria-label="LinkedIn">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
 
 
 
-<!--
-        </div>
-        <a href="#">HOME</a> 
-        <a href="#">ABOUT US</a> 
-        <a href="#">FAQ</a> 
-        <a href="#">LOG IN</a> 
-        <a href="#" style ="border: solid blue; border-radius: 5px; border-color: red; color:red">GET STARTED</a> 
-    </nav>
--->
-<script src="script.js"></script>
+
 </body>
 </html>
