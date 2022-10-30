@@ -200,37 +200,57 @@
 /* How To Section */
 .how_container {
     align-items: center;
-    width:100%;
-}
-.how_moto_content h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 10vh;
+    height: 50vh;
     z-index: 1;
+}
+.how_moto_content h2 {
     padding-right: 50px;
     padding-left: 50px;
     font-size: 35px;
     font-weight:lighter;
+    width:100%;
 }
 .how_moto_content p {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-self: center;
-    margin:0 auto;
-    z-index: 1;
     padding-right: 50px;
     padding-left: 50px;
     font-size: 22px;
     font-weight: lighter;
     color: rgb(87, 86, 86);
+    width:100%;
 }
 .how_moto_content img{
-    width:27vw;
+    margin-top:50px;
+    width:29vw;
     height:460px;
+}
+.how_list ol {
+    list-style:none;
+    width:70%
+}
+.how_list li {
+    font-size: 21px;
+    position: relative;
+    top: 1px; 
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+.how_list li span {
+    color:#F24726;
+    font-weight: bold;
+    position:absolute;
+    left:-99px;
+}
+.how_list li p{
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+    line-height: 30px;
+    opacity: 0.6;
 }
 /* Counter Section */
 .moto {
@@ -238,17 +258,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:26vh;
+    margin-top: 50%
 }
 .moto p{
-    margin-bottom: 1rem;
     font-size: 28px;
 }
 .counter_section {
     display:flex;
     align-items:center;
     justify-content:center;
-    height:35vh;
+    height:70vh;
     overflow:hidden;
     margin:0;
 }
