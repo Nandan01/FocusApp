@@ -262,7 +262,7 @@
 .footer_logo .logo {
     display: flex;
     align-items: center;
-    margin-bottom: 9px;
+    margin-bottom: 1px;
     float:left;
     margin-left: -5%;
 }
