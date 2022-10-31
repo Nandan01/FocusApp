@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="uft-8">
     <title>Login</title>
-    <link href="login.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
 </head>
 
 <body>
-    <img src="focusLogo2.0.png" alt="Focus Logo" width="150" height="70">
+    <nav class="nav_bar" id="navbar">
+        <div class="nav_container">
+          <a href="index.html"><img src="images/focus3.png" alt="logo" class="logo"></a>
+          <ul class="nav_list">
+          </ul>
+        </div>
+      </nav>
 
     <div class="container">
         <h1>Sign In</h1>
 
-        <form action="#home">
+        <form action="index.html">
             <div class="form-control">
                 <input type="text" name="email/user" required>
                 <label for="email/user">Username/Email</label>
@@ -24,7 +33,7 @@
                 <input type="password" name="pass" required>
                 <label for="pass">Password</label>
             </div>
-            <script src="wave.js"></script>
+            <script src="js/wave.js"></script>
 
             <div class="bottom">
                 <span class="psw"> <a href="#">Forgot password?</a></span>
@@ -38,6 +47,33 @@
             <button type="submit">Login</button>
         </form>
     </div>
+
+    <footer>
+        <div class="social_media">
+            <a href="index.html"><img src="images/focus3.png" alt="logo" class="footer_logo"></a>
+
+            <p class="website_rights">&copy; FOCUS 2022. All rights reserved</p>
+            <div class="social_icons">
+                <a class="icon_link" href="/" target="_blank" aria-label="Facebook">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a class="icon_link" href="/" target="_blank" aria-label="Instagram">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a class="icon_link" href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
+                    target="_blank" aria-label="Youtube">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+                <a class="icon_link" href="/" target="_blank" aria-label="Twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a class="icon_link" href="/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

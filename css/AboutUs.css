@@ -1,0 +1,75 @@
+#OurMission {
+    text-align: center;
+    background-color: rgb(250, 234, 214, 0.6);
+    border-radius: 8px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5;
+}
+
+#Team {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(255, 0, 0, 0.2);
+}
+
+.aboutusimages {
+    position: relative;
+    width: 100%;
+
+    /* size: 50px; */
+}
+
+.Names {
+    text-align: center;
+
+}
+
+.raj {
+    background-color: rgb(255, 0, 0, 0.6);
+}
+
+.raj-back {
+    background-color: pink;
+}
+
+.shiv {
+    background-color: rgba(0, 153, 255, 0.6);
+}
+
+.shiv-back {
+    background-color: rgb(170, 89, 236);
+}
+
+.videsh {
+    background-color: rgb(128, 0, 128, 0.6);
+}
+
+.videsh_back, .edwin_back {
+    background-color: #28a745;
+}
+
+.edwin, .sukhnandan_back {
+    background-color: #007bff;
+}
+
+.Sukhnandan {
+    background-color: rgb(255, 255, 0);
+}
+
+div .message {
+    height: 70%;
+    margin: 10% 10% 0% 10%;
+    font-size: 2vh;
+    /* text-size-adjust: auto; */
+}
+
+div .button {
+    height: 10%;
+    margin-bottom: 8%;
+    /* margin-top: -10%; */
+    /* align-items: center; */
+
+    /* justify-content:flex-end; */
+}
