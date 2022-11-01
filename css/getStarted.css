@@ -1,10 +1,13 @@
 #quickView {
-  position: static;
+  position: relative;
   margin-left: 10px;
   width: 40%;
   float: left;
   border: solid;
   border-radius: 16px;
+  height: 75vh;
+  overflow: auto;
+  margin-bottom: 25px;
 }
 
 #quickView ul li{
@@ -28,4 +31,11 @@ button {
 
 tr td {
   padding: 0px 10% 5% 0px;
+}
+
+#text {
+  clear: both;
+  margin-bottom: 25px;
+  width: 40%;
+  text-align:center;
 }

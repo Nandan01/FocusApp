@@ -17,13 +17,10 @@
 .aboutusimages {
     position: relative;
     width: 100%;
-
-    /* size: 50px; */
 }
 
 .Names {
     text-align: center;
-
 }
 
 .raj {
@@ -62,14 +59,9 @@ div .message {
     height: 70%;
     margin: 10% 10% 0% 10%;
     font-size: 2vh;
-    /* text-size-adjust: auto; */
 }
 
 div .button {
     height: 10%;
     margin-bottom: 8%;
-    /* margin-top: -10%; */
-    /* align-items: center; */
-
-    /* justify-content:flex-end; */
 }
