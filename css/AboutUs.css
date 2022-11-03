@@ -58,7 +58,8 @@
 div .message {
     height: 70%;
     margin: 10% 10% 0% 10%;
-    font-size: 2vh;
+    font-size: 20px;
+    overflow: auto;
 }
 
 div .button {
