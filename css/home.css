@@ -1,3 +1,10 @@
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', 'Helvetica', and sans-serif;
+    scroll-behavior: smooth;   
+}
 /* Hero Section */
 .hero_container {
     display: grid;
